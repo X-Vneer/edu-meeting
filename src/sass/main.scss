@@ -910,6 +910,10 @@ ul {
   position: relative;
   background-color: white;
   padding-bottom: 50px;
+
+  .up-comming-meeting-card {
+    max-width: 300px;
+  }
   .image {
     height: fit-content;
     .price,
