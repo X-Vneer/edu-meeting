@@ -885,6 +885,9 @@ ul {
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
+  .up-comming-meeting-card {
+    max-width: 300px;
+  }
   .meetings-category {
     text-transform: capitalize;
     background-color: white;
@@ -911,9 +914,6 @@ ul {
   background-color: white;
   padding-bottom: 50px;
 
-  .up-comming-meeting-card {
-    max-width: 300px;
-  }
   .image {
     height: fit-content;
     .price,

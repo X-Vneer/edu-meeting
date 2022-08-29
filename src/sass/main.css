@@ -862,6 +862,9 @@ ul {
   background-attachment: fixed;
   overflow: hidden;
 }
+.meetings-page-landing .up-comming-meeting-card {
+  max-width: 300px;
+}
 .meetings-page-landing .meetings-category {
   text-transform: capitalize;
   background-color: white;
@@ -886,9 +889,6 @@ ul {
   position: relative;
   background-color: white;
   padding-bottom: 50px;
-}
-.meetings-details-card .up-comming-meeting-card {
-  max-width: 300px;
 }
 .meetings-details-card .image {
   height: -webkit-fit-content;
