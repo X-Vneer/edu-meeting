@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/edu-meeting/static/css/main.a5455b20.css",
+    "main.css": "/edu-meeting/static/css/main.2d076016.css",
     "main.js": "/edu-meeting/static/js/main.ed38b10e.js",
     "static/media/course-video.mp4": "/edu-meeting/static/media/course-video.f3257b9e04f0b8148465.mp4",
     "static/media/apply-bg.jpg": "/edu-meeting/static/media/apply-bg.c4e62dba69de5c869ccf.jpg",
@@ -12,11 +12,11 @@
     "static/media/course-01.jpg": "/edu-meeting/static/media/course-01.37c486a1d00db491a36e.jpg",
     "static/media/course-02.jpg": "/edu-meeting/static/media/course-02.9c0c8a0d35ab2582a581.jpg",
     "index.html": "/edu-meeting/index.html",
-    "main.a5455b20.css.map": "/edu-meeting/static/css/main.a5455b20.css.map",
+    "main.2d076016.css.map": "/edu-meeting/static/css/main.2d076016.css.map",
     "main.ed38b10e.js.map": "/edu-meeting/static/js/main.ed38b10e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5455b20.css",
+    "static/css/main.2d076016.css",
     "static/js/main.ed38b10e.js"
   ]
 }
