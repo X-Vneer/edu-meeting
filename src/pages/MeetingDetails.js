@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { Box, Stack } from "@mui/system";
 import CustomLanding from "../components/CustomLanding";
 import image from "../assets/images/heading-bg.jpg";
@@ -41,32 +40,9 @@ const MeetingDetails = () => {
     }
   };
 
-  const myVaraint = {
-    hidden: {
-      opacity: 0.3,
-    },
-    animate: {
-      opacity: 1,
-      transition: {
-        duration: 0.6,
-      },
-    },
-    exit: {
-      opacity: 0.3,
-      transition: {
-        duration: 0.6,
-      },
-    },
-  };
   return (
     <>
-      <motion.section
-        className="meetings-page-landing"
-        variants={myVaraint}
-        initial="hidden"
-        animate="animate"
-        exit="exit"
-      >
+      <section className="meetings-page-landing">
         <CustomLanding
           image={image}
           title={meetingData.title ? meetingData.title : "loading..."}
@@ -147,7 +123,7 @@ const MeetingDetails = () => {
         >
           Back to meetings list
         </Link>
-      </motion.section>
+      </section>
     </>
   );
 };

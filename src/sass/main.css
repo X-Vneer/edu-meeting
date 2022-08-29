@@ -687,7 +687,6 @@ ul {
   font-weight: 700;
 }
 .uni-facts-sec .facts-card {
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 16;
@@ -863,7 +862,7 @@ ul {
   overflow: hidden;
 }
 .meetings-page-landing .up-comming-meeting-card {
-  max-width: 300px;
+  max-width: 290px;
 }
 .meetings-page-landing .meetings-category {
   text-transform: capitalize;
@@ -969,4 +968,10 @@ ul {
 .meetings-details-card .content .share {
   color: var(--secondry-c);
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  * {
+    cursor: default !important;
+  }
 }/*# sourceMappingURL=main.css.map */

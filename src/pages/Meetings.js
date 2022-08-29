@@ -2,7 +2,6 @@ import CustomLanding from "../components/CustomLanding";
 import image from "../assets/images/heading-bg.jpg";
 import { Stack, Box } from "@mui/system";
 import { useState } from "react";
-import { motion } from "framer-motion";
 import { useEffect } from "react";
 import UpCommingMeetingCard from "../components/UpCommingMeetingCard";
 
@@ -37,6 +36,7 @@ const Meetings = ({ categoriesData, data, isPending }) => {
     });
     setCards(myCardsArray);
     setCardsForFiltering(myCardsArray);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isPending]);
 
   useEffect(() => {
@@ -73,6 +73,7 @@ const Meetings = ({ categoriesData, data, isPending }) => {
 
       setSelectedCards(myCardsCollections);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cards.length, stateForUseEffect]);
 
   const handleClick = (e) => {
@@ -99,32 +100,9 @@ const Meetings = ({ categoriesData, data, isPending }) => {
     setStateForUseEffect((pre) => !pre);
   };
 
-  const myVaraint = {
-    hidden: {
-      opacity: 0.3,
-    },
-    animate: {
-      opacity: 1,
-      transition: {
-        duration: 0.6,
-      },
-    },
-    exit: {
-      opacity: 0.3,
-      transition: {
-        duration: 0.3,
-      },
-    },
-  };
   return (
     <>
-      <motion.section
-        className="meetings-page-landing"
-        variants={myVaraint}
-        initial="hidden"
-        animate="animate"
-        exit="exit"
-      >
+      <section className="meetings-page-landing">
         <CustomLanding
           image={image}
           title="UPCOMING MEETINGS"
@@ -174,7 +152,7 @@ const Meetings = ({ categoriesData, data, isPending }) => {
             {selectedCards.slice(0, 3)}
           </Stack>
         </div>
-      </motion.section>
+      </section>
     </>
   );
 };
