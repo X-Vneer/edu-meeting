@@ -964,6 +964,7 @@ ul {
 
 @media (max-width: 768px) {
   * {
+    cursor: default !important;
     background-attachment: unset !important;
   }
 }/*# sourceMappingURL=main.css.map */
