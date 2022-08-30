@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/edu-meeting/static/css/main.3bd5d3ce.css",
-    "main.js": "/edu-meeting/static/js/main.23bec454.js",
+    "main.css": "/edu-meeting/static/css/main.f11ca54f.css",
+    "main.js": "/edu-meeting/static/js/main.48ebf295.js",
     "static/media/course-video.mp4": "/edu-meeting/static/media/course-video.f3257b9e04f0b8148465.mp4",
     "static/media/apply-bg.jpg": "/edu-meeting/static/media/apply-bg.c4e62dba69de5c869ccf.jpg",
     "static/media/meetings-page-bg.jpg": "/edu-meeting/static/media/meetings-page-bg.df31bdd6868172d29e34.jpg",
@@ -12,11 +12,11 @@
     "static/media/course-01.jpg": "/edu-meeting/static/media/course-01.37c486a1d00db491a36e.jpg",
     "static/media/course-02.jpg": "/edu-meeting/static/media/course-02.9c0c8a0d35ab2582a581.jpg",
     "index.html": "/edu-meeting/index.html",
-    "main.3bd5d3ce.css.map": "/edu-meeting/static/css/main.3bd5d3ce.css.map",
-    "main.23bec454.js.map": "/edu-meeting/static/js/main.23bec454.js.map"
+    "main.f11ca54f.css.map": "/edu-meeting/static/css/main.f11ca54f.css.map",
+    "main.48ebf295.js.map": "/edu-meeting/static/js/main.48ebf295.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bd5d3ce.css",
-    "static/js/main.23bec454.js"
+    "static/css/main.f11ca54f.css",
+    "static/js/main.48ebf295.js"
   ]
 }
