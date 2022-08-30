@@ -1,0 +1,28 @@
+.page-landing {
+  padding: 0 0 100px 0;
+  background-image: url(../assets/images/meetings-page-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  .up-comming-meeting-card {
+    max-width: 290px;
+  }
+  .meetings-category {
+    text-transform: capitalize;
+    background-color: white;
+    color: var(--secondry-c);
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      background-color: var(--secondry-c);
+      color: white;
+    }
+    &.active {
+      background-color: var(--secondry-c);
+      color: white;
+    }
+  }
+}

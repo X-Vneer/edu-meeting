@@ -1,0 +1,85 @@
+// start apply now setion
+.apply-now {
+  background-image: url("../assets/images/apply-bg.jpg");
+  background-attachment: fixed;
+
+  .apply-now-card {
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+  }
+}
+.faq {
+  background-color: white;
+  padding: 25px 40px;
+  border-radius: 30px;
+  height: fit-content;
+  min-height: 490px;
+  min-width: 50%;
+  margin-top: 50px;
+
+  svg {
+    width: 20px;
+    transform: rotatez(-90deg);
+    align-self: flex-start;
+    transition: all 0.3s;
+  }
+
+  &__accordion {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  &__accordion-button {
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    padding: 0px;
+    background-color: transparent;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: 22px;
+    transition: all 0.25s;
+
+    &:hover {
+      color: var(--o-c);
+    }
+    &.active {
+      color: var(--o-c);
+      svg {
+        fill: var(--o-c);
+        transform: rotatez(0);
+      }
+    }
+  }
+
+  &__desc {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 200ms ease-out;
+  }
+}
+.faq__desc.show-description {
+  height: 7rem;
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .apply-now .container {
+    flex-direction: column;
+  }
+}

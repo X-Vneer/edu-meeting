@@ -52,7 +52,7 @@ const UpCommingMeeting = ({ data, isPending, categoriesData }) => {
     <Box
       mt="-5px"
       pb={16}
-      className="up-comming-meeting"
+      className="up-comming-meetings"
       overflow="hidden"
       minHeight="110vh"
     >

@@ -42,7 +42,7 @@ const MeetingDetails = () => {
 
   return (
     <>
-      <section className="meetings-page-landing">
+      <section className="page-landing">
         <CustomLanding
           image={image}
           title={meetingData.title ? meetingData.title : "loading..."}
@@ -50,7 +50,7 @@ const MeetingDetails = () => {
         />
         <Box className="container" minHeight="95vh" py={7}>
           {meetingData.title && (
-            <Box className="meetings-details-card">
+            <Box className="meeting-details-card">
               <div className="image">
                 <img src={meetingData.image} alt="meeting cover" />
                 {meetingData.price ? (

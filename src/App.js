@@ -1,4 +1,4 @@
-import "./sass/main.css";
+import "./css/main.css";
 import { useState, useEffect, createContext } from "react";
 import "@csstools/normalize.css";
 import Navbar from "./components/Navbar";

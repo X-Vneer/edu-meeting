@@ -102,7 +102,7 @@ const Meetings = ({ categoriesData, data, isPending }) => {
 
   return (
     <>
-      <section className="meetings-page-landing">
+      <section className="page-landing">
         <CustomLanding
           image={image}
           title="UPCOMING MEETINGS"

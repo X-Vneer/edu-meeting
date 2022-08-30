@@ -1,0 +1,11 @@
+.footer {
+  border-top: 1px solid var(--border-color);
+  line-height: 1.6;
+  background-image: url("../assets/images/meetings-page-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+  span {
+    color: var(--o-c);
+  }
+}

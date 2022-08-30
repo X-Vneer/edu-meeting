@@ -1,0 +1,52 @@
+.up-comming-meetings {
+  background-image: url("../assets/images/meetings-page-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  .caragories {
+    background-color: white;
+    h3 {
+      font-weight: 400;
+      text-transform: capitalize;
+      padding: 0 0 20px 0;
+      border-bottom: 0.3px solid #ccc;
+      margin-bottom: 25px;
+    }
+    ul {
+      padding-bottom: 20px;
+      border-bottom: 0.3px solid #ccc;
+      li {
+        padding: 5px 0;
+        cursor: pointer;
+        transition: all 0.25s;
+        &:hover {
+          color: var(--secondry-c);
+          padding-left: 5px;
+        }
+      }
+    }
+    button {
+      display: block;
+      font-size: 14px;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .up-comming-meetings .container {
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .up-comming-meetings {
+    padding-top: 80px;
+    .holder {
+      flex-direction: column;
+      gap: 15px;
+      div {
+        gap: 30px;
+      }
+    }
+  }
+}

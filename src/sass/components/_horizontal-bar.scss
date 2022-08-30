@@ -1,0 +1,17 @@
+.horizontl-bar {
+  background-image: url("../assets/images/meetings-page-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: -5px;
+  .alice-carousel {
+    transform: translateY(-30%);
+  }
+}
+@media (max-width: 768px) {
+  .horizontl-bar {
+    padding: 60px 0 0 0;
+    .alice-carousel {
+      transform: translate(0);
+    }
+  }
+}
